@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b87c997-5ab2-479b-bbea-d129474cf58e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/system/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/system/Manager_Account.java" afterDir="false" />
+    <list default="true" id="6b87c997-5ab2-479b-bbea-d129474cf58e" name="Default Changelist" comment="DB Handler still needs to be added, almost done">
+      <change afterPath="$PROJECT_DIR$/src/system/DBHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/system/MySQLHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/system/Dine_in.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/Dine_in.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/system/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/system/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/Table.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,14 @@
       <option name="presentableId" value="Default" />
       <updated>1622185520942</updated>
     </task>
+    <task id="LOCAL-00001" summary="DB Handler still needs to be added, almost done">
+      <created>1622196916217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622196916217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -64,5 +71,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DB Handler still needs to be added, almost done" />
+    <option name="LAST_COMMIT_MESSAGE" value="DB Handler still needs to be added, almost done" />
   </component>
 </project>

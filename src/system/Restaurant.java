@@ -6,39 +6,44 @@ public class Restaurant
     private Dine_in dine_in;
     private static Restaurant instance=null;
     private Account active=null;
-    private Restaurant(int no_of_tables)
+    private DBHandler dbHandler;
+    private Restaurant()
     {
-        dine_in = Dine_in.get_dining(no_of_tables);
+        dine_in = Dine_in.get_dining();
+        dbHandler=MySQLHandler.getDatabase();
+        //dine_in = Dine_in.get_dining(no_of_tab);
     }
     public boolean Create_Manager_Account(String cnic_no, String name, String design)
     {
         //database function to add new manager entry
+        dbHandler.Create_Manager_Account(cnic_no,name,design);
         return true;
     }
     public boolean Create_WaitingStaff_Account(String cnic_no, String name, String design)
     {
         //database function to add new waiting staff entry
+        dbHandler.Create_WaitingStaff_Account(cnic_no, name, design);
         return true;
     }
     public boolean Create_KStaff_Account(String cnic_no, String name, String design)
     {
+        dbHandler.Create_KStaff_Account(cnic_no, name, design);
         //database function to add new kitchen staff entry
         return true;
     }
-    public boolean Set_no_of_Tables_in_DB(int new_Tables)
-    {
-        return true;
-    }
-
     boolean Set_Restaurant_Name(String res_name)
     {
         restaurant_name=res_name;
         return true;
     }
-    public static Restaurant get_instance(int no_of_tables)
+    public void set_tables(int number_tables)
+    {
+        dine_in.Update_Tables(number_tables);
+    }
+    public static Restaurant get_instance()
     {
         if(instance==null) {
-            instance= new Restaurant(no_of_tables);
+            instance= new Restaurant();
         }
         return instance;
     }

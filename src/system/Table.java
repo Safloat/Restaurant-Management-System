@@ -16,6 +16,10 @@ public class Table
         status=inp;
         return true;
     }
+    public boolean get_Table_Status()
+    {
+        return status;
+    }
    public boolean payment_status() //returns whether customer has completed payment
     {
         return total_payment <= payment_received;

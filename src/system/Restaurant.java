@@ -52,4 +52,47 @@ public class Restaurant
         dine_in.Update_Tables(new_Tab);
         return true;
     }
+
+    public int get_stock_quantity(int item_id)
+    {
+        //checks in DB for that specific item's quantity
+        return 1;
+    }
+
+    public void update_stock(int item_id, int new_amt)
+    {
+        //sets the item in the stock corresponding to the item_id to new_amt
+    }
+
+    public boolean contact_Supplier()
+    {
+        //contacts supplier for all items below threshold quantity
+        return true;//if successful
+    }
+    public boolean contact_Supplier(int item_id)
+    {
+        //contacts supplier for specific item
+        return true; //if successful
+    }
+    public float get_daily_revenue()
+    {
+        //returns the daily revenue from the database
+        return 0;
+    }
+    public float get_weekly_revenue()
+    {
+        //returns the daily revenue from the database
+        return 0;
+    }
+    public float get_monthly_revenue()
+    {
+        //returns the daily revenue from the database
+        return 0;
+    }
+    public float get_yearly_revenue()
+    {
+        return 0;
+        //returns the daily revenue from the database
+    }
+
 }

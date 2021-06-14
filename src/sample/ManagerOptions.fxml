@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerWelcome">
+   <children>
+      <Button layoutX="205.0" layoutY="99.0" mnemonicParsing="false" onAction="#openManageStaff" prefHeight="34.0" prefWidth="191.0" text="Manage Staff" />
+      <Button layoutX="205.0" layoutY="303.0" mnemonicParsing="false" onAction="#openUpdateStock" prefHeight="34.0" prefWidth="191.0" text="Update Stock" />
+      <Button fx:id="Utable" layoutX="205.0" layoutY="200.0" mnemonicParsing="false" onAction="#openUpdateTables" prefHeight="34.0" prefWidth="191.0" text="Update Tables" />
+      <Button layoutX="205.0" layoutY="251.0" mnemonicParsing="false" onAction="#openUpdateMenu" prefHeight="34.0" prefWidth="191.0" text="Update Menu" />
+      <Button layoutX="205.0" layoutY="149.0" mnemonicParsing="false" onAction="#openManageFinances" prefHeight="34.0" prefWidth="191.0" text="Manage Finances" />
+      <Label layoutX="69.0" layoutY="22.0" prefHeight="55.0" prefWidth="463.0" text="Welcome Manager! Please choose your desire Option">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="CAcc" layoutX="278.0" layoutY="349.0" mnemonicParsing="false" onAction="#goBack" text="EXIT" />
+   </children>
+</AnchorPane>

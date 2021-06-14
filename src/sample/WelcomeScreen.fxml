@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerWelcome">
+   <children>
+      <Button fx:id="SignUp" layoutX="198.0" layoutY="311.0" mnemonicParsing="false" onAction="#SignUp" prefHeight="42.0" prefWidth="204.0" text="Sign Up" />
+      <Button fx:id="SignIn" layoutX="198.0" layoutY="227.0" mnemonicParsing="false" onAction="#SignIn" prefHeight="42.0" prefWidth="204.0" text="Sign In " />
+      <PasswordField layoutX="198.0" layoutY="167.0" prefHeight="33.0" prefWidth="204.0" />
+      <Label layoutX="198.0" layoutY="86.0" prefHeight="24.0" prefWidth="76.0" text="User Name" />
+      <Label layoutX="198.0" layoutY="143.0" prefHeight="24.0" prefWidth="76.0" text="Password" />
+      <Label layoutX="198.0" layoutY="287.0" prefHeight="24.0" prefWidth="146.0" text="Don't Have an Account?" textFill="RED" />
+      <Label layoutX="122.0" layoutY="32.0" prefHeight="33.0" prefWidth="357.0" text="Welcome to Sa-Zoë's Dhaaba !" textAlignment="CENTER">
+         <font>
+            <Font name="Cooper Black" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="197.0" layoutY="110.0" prefHeight="33.0" prefWidth="204.0" />
+   </children>
+</AnchorPane>

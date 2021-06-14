@@ -95,4 +95,11 @@ public class Restaurant
         //returns the daily revenue from the database
     }
 
+    public boolean notify_manager_stock()
+    {
+        //notify manager when stock is running out
+        return false;
+    }
+
+
 }

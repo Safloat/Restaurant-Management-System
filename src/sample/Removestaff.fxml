@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" fx:controller="sample.ControllerWelcome" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="207.0" layoutY="155.0" prefHeight="30.0" prefWidth="207.0" />
+      <TextField layoutX="207.0" layoutY="210.0" prefHeight="30.0" prefWidth="207.0" />
+      <PasswordField layoutX="207.0" layoutY="268.0" prefHeight="30.0" prefWidth="207.0" />
+      <Label layoutX="207.0" layoutY="138.0" prefHeight="17.0" prefWidth="46.0" text="Name" />
+      <Label layoutX="207.0" layoutY="193.0" text="CNIC" />
+      <Label layoutX="207.0" layoutY="251.0" prefHeight="17.0" prefWidth="85.0" text="Designation" />
+      <Label layoutX="157.0" layoutY="47.0" prefHeight="58.0" prefWidth="286.0" text="Remove Staff Memeber" textAlignment="CENTER">
+         <font>
+            <Font name="Cooper Black" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="CAcc" layoutX="291.0" layoutY="363.0" mnemonicParsing="false" onAction="#CreateAcc" text="Done" />
+   </children>
+</AnchorPane>

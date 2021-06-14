@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerWelcome">
+   <children>
+      <RadioButton layoutX="172.0" layoutY="261.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="128.0" text="Add Tables" />
+      <RadioButton layoutX="300.0" layoutY="261.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="128.0" text="Remove Tables" />
+      <TextField layoutX="225.0" layoutY="182.0" prefHeight="37.0" prefWidth="150.0" />
+      <Label layoutX="125.0" layoutY="111.0" prefHeight="48.0" prefWidth="350.0" text="Enter Number of Tables You want to Add or Remove">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="274.0" layoutY="316.0" mnemonicParsing="false" text="Done" />
+   </children>
+</AnchorPane>

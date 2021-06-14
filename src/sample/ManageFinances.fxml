@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.ControllerWelcome" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView layoutX="201.0" layoutY="57.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="209.0" layoutY="286.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="183.0" text="Update Sales Tax" />
+      <Label layoutX="213.0" layoutY="11.0" prefHeight="35.0" prefWidth="174.0" text="Revenue Details">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="CAcc" layoutX="279.0" layoutY="344.0" mnemonicParsing="false" onAction="#CreateAcc" text="Done" />
+      <Button layoutX="22.0" layoutY="29.0" mnemonicParsing="false" onAction="#backToManager" text="Back" />
+   </children>
+</AnchorPane>
